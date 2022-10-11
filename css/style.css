@@ -1,0 +1,89 @@
+/* Tuesday, 11 October, 2022*/
+
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,300;0,600;1,300&family=Roboto&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Properties */
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-shellWhite: hsl(0, 22%, 90%);
+  --clr-steel: hsl(207, 44%, 49%);
+  --clr-bgDark: hsl(0, 0%, 0%);
+  --clr-bgGrey: hsl(0, 0%, 50%);
+  --clr-bgBlue: hsla(197, 84%, 22%, 0.924);
+  --clr-midGrey: hsl(0, 4%, 44%);
+  --clr-fadedGrey: hsl(0, 0%, 60%);
+  --clr-ltgreen: hsl(173, 37%, 64%);
+  --clr-orange: hsl(16, 78%, 46%);
+  --clr-orangeRed: hsl(16, 100%, 50%);
+  --clr-red: hsl(0, 100%, 50%);
+  /* background-image color below */
+  --clr-linearBlue: linear-gradient(hsl(240, 100%, 27%), hsl(196, 37%, 37%));
+  --clr-linearInverseBlue: linear-gradient(
+    hsl(192, 80%, 16%),
+    hsl(240, 100%, 27%)
+  );
+  --clr-linearDarkBlue: linear-gradient(hsl(240, 100%, 50%), hsl(0, 0%, 10%));
+  --clr-linearGrey: linear-gradient(#353232, hsl(0, 0%, 50%));
+  /************************/
+  --border-radius-4: 4px;
+  --border-radius-8: 8px;
+  --border-radius-100: 100px;
+  --box-shad: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --box-shad2: 0 1px 10px rgba(0, 0, 0, 0.4);
+  --fw-900: 900;
+  --transition250: 250ms ease-in;
+  --transition500: 500ms ease-in;
+}
+
+/*** General ***/
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/************/
+.container {
+  width: min(900px, 90%);
+  margin: 0 auto;
+
+body {
+  /* height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5; */
+}
+
+/* Typography */
+
+/***** Main ******/
+.main {
+  flex: 1;
+}
+
+/* Navigation */
+
+/*** Buttons ***/
+
+/* Hover-states */
+
+/*** Footer ***/
+
+/* Footer Typography */
+
+/*** Media ***/
+@media (min-width: 768px) {
+}
