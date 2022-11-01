@@ -1,0 +1,82 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Titan+One&display=swap");
+/* font-family: 'Titan One', cursive; */
+/* font-family: 'Kanit', sans-serif; */
+
+body {
+  font-family: arial, sans-serif, monospace;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  padding-top: 2em;
+}
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+/*  */
+.tic-box {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-color: rgb(228, 214, 209);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tic-box:first-child,
+.tic-box:nth-child(2),
+.tic-box:nth-child(3) {
+  border-top: none;
+}
+.tic-box:last-child,
+.tic-box:nth-child(7),
+.tic-box:nth-child(8) {
+  border-bottom: none;
+}
+.tic-box:nth-child(3n + 1) {
+  border-left: none;
+}
+.tic-box:nth-child(3n + 3) {
+  border-right: none;
+}
+
+/* O's */
+.circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 20px solid black;
+}
+
+/* X's */
+.display-x {
+  font-family: "Kanit", sans-serif;
+  font-size: 8rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-size: 4rem;
+  font-weight: bold;
+  background-color: steelblue;
+  padding: 0.25em 0.5em;
+  color: rgb(88, 19, 19);
+  border-radius: 8px;
+  border: none;
+}
+.game-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
