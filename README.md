@@ -23,22 +23,13 @@ https://drewchambs.github.io/tic-tac-toe/
 
 ## Tic-Tac-Toe game - The Odin Project
 
-> > > > > > > test_user_i
-
 - Odin Project Tic-Tac-Toe game:
-- Original tic-tac-toe game:
+- ## Original tic-tac-toe game:
   -
-  -
-
-<<<<<<< HEAD
 
 # The challenge
 
 -
-
-=======
-
-> > > > > > > test_user_i
 
 # Link to project
 
